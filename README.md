@@ -10,36 +10,90 @@ A collection of lecture materials, PDFs, PPTs, and question banks for ECE Semest
 - **Maths** - Engineering Mathematics II
 - **Physics** - ElectroMagnetism and Modern Physics
 
-## How to Download (Linux)
+---
 
-### Prerequisites
+## How to Download
 
-Make sure Git is installed on your system:
+### Linux
+
+**Step 1 — Install Git:**
 
 ```bash
 sudo apt update
 sudo apt install git
 ```
 
-### Clone the Repository
+**Step 2 — Clone the repository:**
 
 ```bash
 git clone https://github.com/ponmudimr/ece-academic-notes.git
 ```
 
-### Navigate into the folder
+**Step 3 — Navigate into the folder:**
+
+```bash
+cd ece-academic-notes
+ls "SEM 1/"
+```
+
+---
+
+### Windows
+
+**Step 1 — Install Git:**
+
+- Download Git from https://git-scm.com/download/win
+- Run the installer and follow the setup wizard (keep default options)
+
+**Step 2 — Open Git Bash:**
+
+- Right-click on your Desktop or any folder
+- Select **"Git Bash Here"**
+
+**Step 3 — Clone the repository:**
+
+```bash
+git clone https://github.com/ponmudimr/ece-academic-notes.git
+```
+
+**Step 4 — Navigate into the folder:**
 
 ```bash
 cd ece-academic-notes
 ```
 
-### View the contents
+The folder will appear in File Explorer where you ran Git Bash.
+
+---
+
+### macOS
+
+**Step 1 — Install Git:**
+
+Open Terminal and run:
 
 ```bash
-ls "SEM 1/"
+xcode-select --install
 ```
 
-That's it! All notes and materials will be available in the `SEM 1/` folder.
+Or install via Homebrew:
+
+```bash
+brew install git
+```
+
+**Step 2 — Clone the repository:**
+
+```bash
+git clone https://github.com/ponmudimr/ece-academic-notes.git
+```
+
+**Step 3 — Navigate into the folder:**
+
+```bash
+cd ece-academic-notes
+ls "SEM 1/"
+```
 
 ---
 
